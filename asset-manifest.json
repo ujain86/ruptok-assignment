@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ruptok-assignment/static/css/main.606ebd42.css",
+    "main.js": "/ruptok-assignment/static/js/main.941ea827.js",
+    "index.html": "/ruptok-assignment/index.html",
+    "main.606ebd42.css.map": "/ruptok-assignment/static/css/main.606ebd42.css.map",
+    "main.941ea827.js.map": "/ruptok-assignment/static/js/main.941ea827.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.606ebd42.css",
+    "static/js/main.941ea827.js"
+  ]
+}
