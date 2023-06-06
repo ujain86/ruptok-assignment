@@ -1,0 +1,113 @@
+#right-div *{
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.326);
+  padding: 10px;
+}
+
+#container{
+  display: flex;
+  background-color: rgba(9, 26, 9, 0.985);
+
+}
+
+#left-div{
+  min-height: 100vh;
+  width: 15vw;
+}
+
+#right-div{
+  min-height: 100vh;
+  width: 85vw;
+  background-color: rgb(237, 241, 238);
+  border-radius: 40px 0 0 0;
+  padding: 20px;
+}
+
+#list-container>div{
+  width: 95%;
+  padding: 5px;
+}
+
+#tab{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  font-weight: bold;
+  /* font-size: 1.4rem; */
+}
+
+button{
+  padding: 20px;
+  border-radius: 4px;
+  height: 60px;
+  background-color: rgba(9, 26, 9, 0.985);
+  color: white;
+}
+
+#headings{
+  /* width: 95%; */
+  /* padding: 5px; */
+  margin-left: 10px;
+  display: grid;
+  grid-template-rows: 40px;
+  grid-template-columns: 8% 20% 20% 20% 30%;
+  font-weight: bolder;
+  /* font-size: 2rem; */
+
+}
+
+.list-item{
+  height: 45px;
+  background-color: white;
+  margin: 10px;
+  /* width: 95%;
+  padding: 5px; */
+  border-radius: 4px;
+  display: grid;
+  grid-template-rows: 60% 20%;
+  grid-template-columns: 8% 20% 20% 20% 30%;
+  /* grid-template-areas: 
+  "image name phone address"
+  "image email"; */
+}
+
+p{
+  /* margin: 2px; */
+}
+
+.user-img{
+  height: 40px;
+  width: 60px;
+  /* grid-area: image; */
+}
+
+.name{
+  font-weight: bold;
+  /* margin: 2px;
+  grid-area: name; */
+}
+/* 
+.email{
+  grid-area: email;
+}
+
+.address{
+  grid-area: address;
+}
+
+.phone{
+  grid-area: phone;
+} */
+
+#pagination{
+  display: flex;
+  justify-content: center;
+}
+
+
